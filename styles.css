@@ -1,0 +1,35 @@
+body {
+    color: brown;
+    background-color: burlywood;
+}
+
+button {
+    background-color: white;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+    background-color: white;
+}
+
+#cookie_button:active {
+    width: 355px;
+}
